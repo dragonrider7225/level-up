@@ -32,6 +32,6 @@ BUGS
 --------------------------------------------------------------------------------
 There will be bugs: if there are, please report them to:
 
-    https://github.com/thenoviceoof/level-up/issues
+    https://github.com/apetro/level-up/issues
 
 Or fork and fix!
