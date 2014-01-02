@@ -75,6 +75,20 @@ homepage: http://apetro.github.io
 </div>
 
 <div>
+  <h1>Writing and Communicating</h1>
+  <p>Writing clearly is a tool for thinking clearly.  It is also a way to communicate, in our projects, in our profession.</p>
+  {% for post in site.categories.writing %}
+  <div class="{{ post.status }}">
+    <h2>{{ post.title }}</h2>
+    <time>{{ post.time }}</time>
+    <article>
+      {{ post.content }}
+    </article>
+  </div>
+  {% endfor %}
+</div>
+
+<div>
   <h1>Wisdom</h1>
   <p>Enlighten yourself with koans, katas, and the wisdom of ages.</p>
   {% for post in site.categories.wisdom %}
