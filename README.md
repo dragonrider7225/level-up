@@ -14,20 +14,14 @@ self-tracking tool, but it seems to me that like many things,
 
 Hence, this project.
 
-You can see it in action [here](http://thenoviceoof.github.com/level-up/).
+You can see it in action [here, originally](http://thenoviceoof.github.com/level-up/) or [here, in this version](http://apetro.github.com/level-up/).
 
 USAGE
 --------------------------------------------------------------------------------
  * fork this repo
- * enable github pages
-   * hit the admin button on your 
-   * you'll probably want to `git branch -D gh-pages`
-   * `git symbolic-ref HEAD refs/heads/gh-pages`
-   * `rm .git/index`
-   * `git clean -fdx`
-   * `git merge master` to get an empty template
-   * `git push origin gh-pages`
-   * if that doesn't work, report it to the github issues tracker
+ * check it out to your computer
+ * reset your `gh-pages` branch to the HEAD of the `tabula_rasa` branch so as to get a fresh starting point
+   * rather than starting from Andrew's in-progress journey
  * change the first 5 lines of index.html
  * edit the files under all/
    * each file corresponds to a single entry
